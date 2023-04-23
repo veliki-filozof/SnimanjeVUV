@@ -29,6 +29,14 @@ Prateći instrukcije u ovom odeljku moguće je klonirati repozitorijum za potreb
 5. Klikom na "Clone" Visual Studio automatski duplira podatke sa repozitorijuma i otvara ih u novoj instanci. Pregled datoteka dostupan je u polju "Solution Explorer" sa desne strane prozora.
 
 ## Upotreba
+### Glavni meni
+Pri pokretanju programa otvara se glavni meni:</br>
+<a href="url"><img src="https://user-images.githubusercontent.com/23122428/233812923-4e25f315-c683-4457-b0fc-809cf56c594d.png" height="40%" width="40%" ></a>
+1. Klikom na dugme "Osveži potrove" program pretražuje otvorene COM serijske portove i upisuje ih u padajuću listu. Odaberite COM port koji odgovara Arduinu i kliknite "Konektuj se".
+2. Pre početka snimanja neophodno je izvršiti pomeranje rešetke na početni položaj. Za pristup ovoj funkciji kliknite na dugme "Podešavanje položaja".
+3. Po završetku rada procedure za podešavanje položaja program se vraća u glavni meni. Odaberite tip izvora koji je u upotrebi i pritisnite dugme "Snimanje" da bi ste pristupili proceduri za snimanje spektra. </br>
+
+*NAPOMENA: U trenutnoj verziji programa implementirana je isključivo procedura za kontinualno snimanje. Nezavisno od odabira tipa u glavnom meniju klik na "Snimanje" vodi u ovu proceduru. Da bi program vršio snimanje impulsnih izvora potrebno ga je modifikovati (vidi: "Smernice za modifikovanje").*
 
 ## Smernice za modifikovanje
 
