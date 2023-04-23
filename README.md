@@ -60,6 +60,7 @@ Kao što je napomenuto u odeljku "Glavni meni", trenutna implementacija aplikaci
 5. Kliknuti na dugme "Proračunaj" i verifikovati ispravno unete podatke o snimanom spektru.
 6. Kliknuti na dugme "Spremi". Ovim se pamte svi parametri snimanja i program kreira i otvara datoteke u kojima će biti sačuvani rezultati. Omogućava se dugme "POKRENI MERENJE".
 7. Klikom na dugme "POKRENI MERENJE" aplikacija započinje automatsko skeniranje. Aplikacija će periodično ispisivati svoj status. Ukoliko nastane greška u komunikaciji, aplikacija će obavestiti korisnika i ispisati postignuti rezultat.
+8. U glavni meni moguće je vratiti se gašenjem ovog prozora.
 
 **Napomene:**
 - Funkcije "NASTAVI MERENJE" i "ZAUSTAVI MERENJE" nisu omogućene u trenutnoj implementaciji. Njihova idejna svrha je da olakšaju proceduru nastavka snimanja prekinutog usled grešaka u komunikaciji sa perifernim uređajima uzrokovanim najčešće elektromagnetnim smetnjama. Nisu neophodne za redovan rad programa ukoliko ove smetnje nisu česte, a za njihovo implementiranje neophodno je uvesti multi-threading (paralelno procesuiranje) u program.
